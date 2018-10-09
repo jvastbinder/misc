@@ -87,5 +87,3 @@ set pastetoggle=<F9>
 " platforms.
 let hostname = substitute(system('hostname'), '\n', '', '')
 
-" ** Load all plugins in ~/.vim/bundle **
-execute pathogen#infect()
